@@ -25,16 +25,17 @@ function App() {
     return (
         <div className="parent">
             <div id="counter">
-                <h1>{count}</h1>
+                <h1>Count is : {count}</h1>
                 <button onClick={() => setCount(count + 1)}>Increase</button>
                 <button onClick={() => setCount(count - 1)}>Decrease</button>
             </div>
 
             <div id="fibo">
+                <h1>Fibonaci Calculator</h1>
                 <input placeholder="enter number" type="number" value={numb} onChange={(e) => setNumber(e.target.value)}/>
                 <button onClick={() => fib(Number(numb))}>Get Answer</button>
 
-                <h2>Result: {result}</h2>
+                <h2>fibonaci number : {result}</h2>
             </div>
         </div>
     );
