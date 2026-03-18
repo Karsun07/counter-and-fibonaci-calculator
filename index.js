@@ -19,6 +19,7 @@ function App() {
 
         return series;
     }, [numb]);
+    // useMemo(callbackfn,[dependncy])
 
     return (
         <div className="parent">
