@@ -24,6 +24,7 @@ body {
     text-align: center;
     min-width: 250px;
     height: 250px;
+    margin-right: 40px;
 }
 
 
@@ -49,6 +50,7 @@ button {
     cursor: pointer;
     font-size: 14px;
     transition: 0.2s ease;
+    
 }
 
 button:hover {
